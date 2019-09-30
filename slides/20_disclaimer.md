@@ -11,6 +11,7 @@ Consider this line without loops
 ```cs
 Console.WriteLine("michael".ToUpper());
 ```
+
 ---
 
 ### Bad News (2/3)
