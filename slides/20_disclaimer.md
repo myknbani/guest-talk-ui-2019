@@ -42,7 +42,7 @@ static class Screamer
 
 ### Bad News (3/3)
 
-Our own version of `ToUpper`, powered by loops!
+Our own version of `ToUpper()`, powered by loops!
 ```cs
 class Program
 {
