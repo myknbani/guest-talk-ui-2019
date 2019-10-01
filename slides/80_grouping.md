@@ -31,7 +31,6 @@ var closeFriends = new string[] { "Judas" ,"Arms", "Seth", "Ariessa" };
 var details = from debt in debts
               where closeFriends.Contains(debt.Debtor)
               group debt by debt.Debtor into debtor
-              orderby debtor.Sum(debt => debt.Amount) descending
               select new {
                   Debtor = debtor.Key,
                   TotalOwed = debtor.Sum(debt => debt.Amount)
