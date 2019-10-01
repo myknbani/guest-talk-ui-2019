@@ -11,7 +11,7 @@ WHERE user.vip = TRUE -- searching
 ORDER BY post.created_at DESC -- sorting
 ```
 
----
+===
 
 ### The good news (2/3)
 
@@ -19,7 +19,7 @@ ORDER BY post.created_at DESC -- sorting
 
 <img alt="MLS" src="images/mls.jpg" style="width: 800px; height: 450px" />
 
----
+===
 
 ### The good news (3/3)
 
@@ -27,7 +27,7 @@ ORDER BY post.created_at DESC -- sorting
 
 <img alt="dumb" src="images/dumb.png" style="width: 800px; height: 450px" />
 
----
+===
 
 ### What is declarative programming?
 
@@ -37,7 +37,7 @@ I want a cup of coffee!
 
 # ☕
 
----
+===
 
 ### What is imperative programming?
 
@@ -54,7 +54,7 @@ I want a cup of coffee!
      forgot to press the switch, and you slipped!
     </span>
 
----
+===
 
 ### Imperative Code
 

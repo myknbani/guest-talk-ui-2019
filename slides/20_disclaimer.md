@@ -12,7 +12,7 @@ Consider this line without loops
 Console.WriteLine("michael".ToUpper());
 ```
 
----
+===
 
 ### Bad News (2/3)
 
@@ -38,7 +38,7 @@ static class Screamer
 }
 ```
 
----
+===
 
 ### Bad News (3/3)
 
