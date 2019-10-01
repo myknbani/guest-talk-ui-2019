@@ -65,7 +65,6 @@ Console.WriteLine(recentDebts.ToJson());
 ```
 
 ```json
-$ dotnet run
 [{
   "Debtor": "Arms",
   "Amount": 2500,
