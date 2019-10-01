@@ -15,7 +15,9 @@
 ##### Getting the sum of an array (imperative)
 
 ```cs
+var weights = new int[] {30, 25, 15, 50, 88, 100, 130};
 var total = 0;
+
 for (var i = 0; i < weights.Length; i++)
 {
     total += weights[i];
