@@ -28,9 +28,11 @@
 		<div class="reveal">
 			<div class="slides">
 				<section data-markdown="slides/10_intro.md" data-separator-vertical="^\r?\n===\r?\n$"></section>
-				<section data-markdown="slides/15_prereqs.md" data-separator-vertical="^\r?\n===\r?\n$"></section>
 				<section data-markdown="slides/20_disclaimer.md" data-separator-vertical="^\r?\n===\r?\n$"></section>
 				<section data-markdown="slides/30_goodnews.md" data-separator-vertical="^\r?\n===\r?\n$"></section>
+				<section data-markdown="slides/40_linq.md" data-separator-vertical="^\r?\n===\r?\n$"></section>
+				<section data-markdown="slides/50_examples.md" data-separator-vertical="^\r?\n===\r?\n$"></section>
+				<section data-markdown="slides/60_search.md" data-separator-vertical="^\r?\n===\r?\n$"></section>
 			</div>
 			<div class="share-reveal" style="display: block; position: absolute; bottom: 16px; left: 50%; margin-left: -75px; z-index: 20;">
 				<img src="logo.jpg" alt="Stacktrek Logo" style="width: 150px; height: 40px" />
@@ -44,6 +46,8 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				slideNumber: 'c/t',
+				progress: true,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },

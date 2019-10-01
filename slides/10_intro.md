@@ -36,3 +36,12 @@ richard.michael.coo
 ### Target Audience (3/3)
 
 <img style="width: 600px; height: 400px" src="images/nested.jpg" alt="nested" />
+
+===
+
+### Pre-requisites
+
+- **LOOPS** 😂🐻
+- Arrays
+- Basic OOP
+- C# (or any OOP language)
