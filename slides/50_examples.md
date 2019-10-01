@@ -93,9 +93,9 @@ You already know how to do this
 ```cs
 var amounts = from debt in debts
               select debt.Amount;
-Console.WriteLine("Total owed: " + amounts.Average());
+Console.WriteLine("Each person loans an average of: " + amounts.Average());
 ```
 
 ```bash
-Total owed: 797.142857142857
+Each person loans an average of: 797.142857142857
 ```
