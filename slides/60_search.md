@@ -26,7 +26,7 @@ var debts = new Debt[]
 
 ```cs
 var armsDebts = from debt in debts
-                where debt.Debtor == "SeTh"
+                where debt.Debtor == "Arms"
                 select debt; // the entire Debt object
 Console.WriteLine(armsDebts.ToJson());
 ```
