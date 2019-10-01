@@ -68,7 +68,7 @@
   font-weight: bold;
 }
 
-.reveal pre {
+.reveal pre, .reveal pre code {
   max-height: 700px;
   width: 1024px;
 }
