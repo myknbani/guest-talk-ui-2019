@@ -78,11 +78,11 @@ Console.WriteLine(sethDebts.ToJson());
 
 ===
 
-Huge debts (500 pesos or more)
+### Huge debts (500 pesos or more)
 
 ===
 
-Huge debts (500 pesos or more)
+### Huge debts (500 pesos or more)
 
 ```cs
 var bigAmounts = from debt in debts
