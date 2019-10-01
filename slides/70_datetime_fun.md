@@ -110,7 +110,7 @@ Now: 10/1/2019 12:55:22 PM
 Code
 ```cs
 Console.WriteLine("Now: " + DateTime.Now);
-Console.WriteLine("7 days from now: " + DateTime.Now + 7.Days());
+Console.WriteLine("7 days from now: " + (DateTime.Now + 7.Days()));
 Console.WriteLine("Reservation expiry in 2 weeks: " + 2.Weeks().FromNow());
 Console.WriteLine("6 months and 1 day ago: " + (DateTime.Now - 6.Months() - 1.Days()));
 Console.WriteLine("6 months and 1 day ago: " + (DateTime.Now - 181.Days()));
@@ -119,7 +119,7 @@ Console.WriteLine("6 months and 1 day ago: " + (DateTime.Now - 181.Days()));
 Output
 ```bash
 Now: 10/1/2019 12:55:22 PM
-7 days from now: 10/1/2019 12:55:22 PM7.00:00:00
+7 days from now: 10/8/2019 2:40:28 PM
 Reservation expiry in 2 weeks: 10/15/2019 12:55:22 PM
 6 months and 1 day ago: 4/3/2019 12:55:22 PM
 6 months and 1 day ago: 4/3/2019 12:55:22 PM
