@@ -111,12 +111,12 @@ Console.WriteLine(bigAmounts.ToJson());
 ### Get the debts owed by either Psalm or Ariessa
 
 ```cs
-var boracayTrippers = new string[]{"Psalm", "Ariessa"};
-var bigAmounts = from debt in debts
-                 where boracayTrippers.Contains(debt.Debtor)
-                 select new { debt.Debtor, debt.Amount };
+var boracayTrippers = new string[]{ "Psalm", "Ariessa" };
+var shamelessDebtors = from debt in debts
+                       where boracayTrippers.Contains(debt.Debtor)
+                       select new { debt.Debtor, debt.Amount };
 
-Console.WriteLine(bigAmounts.ToJson());
+Console.WriteLine(shamelessDebtors.ToJson());
 ```
 
 ```json
