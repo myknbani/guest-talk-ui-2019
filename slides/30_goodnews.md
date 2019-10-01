@@ -15,7 +15,7 @@ ORDER BY post.created_at DESC -- sorting
 
 ### The good news (2/3)
 
-- The industry love declarative programming
+- The industry loves declarative programming
 
 <img alt="MLS" src="images/mls.jpg" style="width: 800px; height: 450px" />
 
